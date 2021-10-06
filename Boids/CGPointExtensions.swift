@@ -45,7 +45,7 @@ extension CGPoint {
     }
 }
 
-extension CGPoint: CustomStringConvertible {
+extension CGPoint: @retroactive CustomStringConvertible {
     public var description: String {
         return "(\(x), \(y))"
     }
